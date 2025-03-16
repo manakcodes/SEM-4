@@ -1,11 +1,5 @@
 # INDEX
 
-## Programming-In-Java-Lab
+#### [Programming-In-Java-Lab](https://github.com/manakcodes/SEM-4/blob/915025747d2a98b1ad212ad57ce9349cb816ff2a/INDEXES/Programming-In-Java-Lab-INDEX.md)
 
-- REPOSITORY : [click here](https://github.com/manakcodes/SEM-4/tree/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab)
-
-  - PRACTICAL 1 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestLargest.java)
-  - PRACTICAL 2 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestShapes.java)
-  - PRACTICAL 3 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestNestedClass.java)
-  - PRACTICAL 4 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestQuadratic.java)
-  - PRACTICAL 5 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestFibonacci.java)
+#### [Assignments](https://github.com/manakcodes/SEM-4/tree/915025747d2a98b1ad212ad57ce9349cb816ff2a/Assignments)
