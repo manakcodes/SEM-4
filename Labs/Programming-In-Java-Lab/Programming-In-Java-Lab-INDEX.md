@@ -1,9 +1,23 @@
-## Programming-In-Java-Lab
+# INDEX
 
-- REPOSITORY : [click here](https://github.com/manakcodes/SEM-4/tree/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab)
-
-  - PRACTICAL 1 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestLargest.java)
-  - PRACTICAL 2 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestShapes.java)
-  - PRACTICAL 3 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestNestedClass.java)
-  - PRACTICAL 4 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestQuadratic.java)
-  - PRACTICAL 5 : [click here](https://github.com/manakcodes/SEM-4/blob/10ff2bbdbeb7fca297fb6aacaadbd076a9f8f0f7/Programming-In-Java-Lab/TestFibonacci.java)
+- PRACTICAL 1 :
+  CODE : [click here](https://github.com/manakcodes/SEM-4/blob/7e93b6de279cb2fc9c7c6b413705de3cd28d128e/Labs/Programming-In-Java-Lab/TestLargest.java)  
+   DATE : []
+  <br>
+- PRACTICAL 2 :
+  CODE : [click here](https://github.com/manakcodes/SEM-4/blob/7e93b6de279cb2fc9c7c6b413705de3cd28d128e/Labs/Programming-In-Java-Lab/TestShapes.java)  
+   DATE : []
+  <br>
+- PRACTICAL 3 :
+  CODE : [click here](https://github.com/manakcodes/SEM-4/blob/7e93b6de279cb2fc9c7c6b413705de3cd28d128e/Labs/Programming-In-Java-Lab/TestNestedClass.java)  
+   DATE : []
+  <br>
+- PRACTICAL 4 :
+  CODE : [click here](https://github.com/manakcodes/SEM-4/blob/7e93b6de279cb2fc9c7c6b413705de3cd28d128e/Labs/Programming-In-Java-Lab/TestQuadratic.java)  
+   DATE : []
+  <br>
+- PRACTICAL 5 :
+  CODE : [click here](https://github.com/manakcodes/SEM-4/blob/7e93b6de279cb2fc9c7c6b413705de3cd28d128e/Labs/Programming-In-Java-Lab/TestFibonacci.java)  
+   DATE : []
+  <br>
+  
