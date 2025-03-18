@@ -1,3 +1,4 @@
+SEM-4 % tree
 .
 ├── Assignments
 │   ├── Circuits-And-Systems-Assignments
@@ -44,7 +45,6 @@
 │   │       └── PRACTICAL_7_THEORY.pdf
 │   └── Programming-In-Java-Lab
 │       ├── Programming-In-Java-Lab-INDEX.md
-│       ├── Programming-In-Java-Lab-INDEX.md.md
 │       ├── TestFibonacci.java
 │       ├── TestLargest.java
 │       ├── TestNestedClass.java
@@ -52,7 +52,6 @@
 │       └── TestShapes.java
 ├── README.md
 ├── Repository-Structure.txt
-├── Repositiory-Structure.txt
 └── Theory
     ├── Circuits-And-Systems
     ├── Data-Base-Management-System
@@ -60,3 +59,5 @@
     ├── Probability-Statistics-And-Linear-Programming
     ├── Programming-In-Java
     └── Theory-Of-Computation
+
+20 directories, 40 files
