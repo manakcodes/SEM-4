@@ -1,0 +1,61 @@
+.
+├── Assignments
+│   ├── Circuits-And-Systems-Assignments
+│   │   └── Circuits-And-Systems-Assignments-INDEX.md
+│   ├── Probability-Statistics-And-Linear-Programming-Assignments
+│   │   ├── Assignment-1-Anwers.pdf
+│   │   ├── Assignment-1-Questions.txt
+│   │   ├── Assignment-2-Answers.pdf
+│   │   ├── Assignment-2-Questions.txt
+│   │   └── Probability-Statistics-And-Linear-Programming-Assignments-INDEX.md
+│   ├── Programming-In-Java-Assignments
+│   │   └── Programming-In-Java-Assignments-INDEX.md
+│   ├── Technical-Writing-Assignments
+│   │   ├── Assignment-1-Answers.pdf
+│   │   ├── Assignment-1-Questions.txt
+│   │   ├── Assignment-2-Answers.pdf
+│   │   ├── Assignment-2-Questions.txt
+│   │   ├── Assignment-3-Answers.pdf
+│   │   ├── Assignment-3-Questions.txt
+│   │   └── Technical-Writing-Assignments-INDEX.md
+│   └── Theory-Of-Computation-Assignments
+│       └── Theory-Of-Computation-Assignments-INDEX.md
+├── INDEX.md
+├── Labs
+│   ├── Circuits-And-Systems-Lab
+│   │   └── Circuits-And-Systems-Lab-INDEX.md
+│   ├── Data-Base-Management-System-Lab
+│   │   └── Data-Base-Managent-System-Lab-INDEX.md
+│   ├── Probability-Statistics-And-Linear-Programming-Lab
+│   │   ├── Code
+│   │   │   ├── PRACTICAL_1_Factorial.sce
+│   │   │   ├── PRACTICAL_2_FibonacciSeries.sce
+│   │   │   ├── PRACTICAL_3_SumOfEvenOdd.sce
+│   │   │   └── PRACTICAL_4_MatrixOperations.sce
+│   │   ├── Probability-Statistics-And-Linear-Programming-INDEX.md
+│   │   ├── SciLabBasics.pdf
+│   │   └── Theory
+│   │       ├── PRACTICAL_1_THEORY.pdf
+│   │       ├── PRACTICAL_2_THEORY.pdf
+│   │       ├── PRACTICAL_3_THEORY.pdf
+│   │       ├── PRACTICAL_4_THEORY.pdf
+│   │       ├── PRACTICAL_5_THEORY.pdf
+│   │       ├── PRACTICAL_6_THEORY.pdf
+│   │       └── PRACTICAL_7_THEORY.pdf
+│   └── Programming-In-Java-Lab
+│       ├── Programming-In-Java-Lab-INDEX.md
+│       ├── Programming-In-Java-Lab-INDEX.md.md
+│       ├── TestFibonacci.java
+│       ├── TestLargest.java
+│       ├── TestNestedClass.java
+│       ├── TestQuadratic.java
+│       └── TestShapes.java
+├── README.md
+├── Repostiory-Structure.txt
+└── Theory
+    ├── Circuits-And-Systems
+    ├── Data-Base-Management-System
+    │   └── DBMS-Notes.pdf
+    ├── Probability-Statistics-And-Linear-Programming
+    ├── Programming-In-Java
+    └── Theory-Of-Computation
