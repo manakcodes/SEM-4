@@ -1,63 +1,78 @@
-SEM-4 % tree
+tree
 .
 ├── Assignments
-│   ├── Circuits-And-Systems-Assignments
-│   │   └── Circuits-And-Systems-Assignments-INDEX.md
-│   ├── Probability-Statistics-And-Linear-Programming-Assignments
-│   │   ├── Assignment-1-Anwers.pdf
-│   │   ├── Assignment-1-Questions.txt
-│   │   ├── Assignment-2-Answers.pdf
-│   │   ├── Assignment-2-Questions.txt
-│   │   └── Probability-Statistics-And-Linear-Programming-Assignments-INDEX.md
-│   ├── Programming-In-Java-Assignments
-│   │   └── Programming-In-Java-Assignments-INDEX.md
-│   ├── Technical-Writing-Assignments
-│   │   ├── Assignment-1-Answers.pdf
-│   │   ├── Assignment-1-Questions.txt
-│   │   ├── Assignment-2-Answers.pdf
-│   │   ├── Assignment-2-Questions.txt
-│   │   ├── Assignment-3-Answers.pdf
-│   │   ├── Assignment-3-Questions.txt
-│   │   └── Technical-Writing-Assignments-INDEX.md
-│   └── Theory-Of-Computation-Assignments
-│       └── Theory-Of-Computation-Assignments-INDEX.md
+│   ├── CS-Assignments
+│   │   └── Circuits-And-Systems-Assignments-INDEX.md
+│   ├── Java-Programming-Assignments
+│   │   └── Programming-In-Java-Assignments-INDEX.md
+│   ├── PLSP-Assignments
+│   │   ├── Assignment-1-Anwers.pdf
+│   │   ├── Assignment-1-Questions.txt
+│   │   ├── Assignment-2-Answers.pdf
+│   │   ├── Assignment-2-Questions.txt
+│   │   └── Probability-Statistics-And-Linear-Programming-Assignments-INDEX.md
+│   ├── TOC-Assignments
+│   │   └── Theory-Of-Computation-Assignments-INDEX.md
+│   └── TW-Assignments
+│       ├── Assignment-1-Answers.pdf
+│       ├── Assignment-1-Questions.txt
+│       ├── Assignment-2-Answers.pdf
+│       ├── Assignment-2-Questions.txt
+│       ├── Assignment-3-Answers.pdf
+│       ├── Assignment-3-Questions.txt
+│       └── Technical-Writing-Assignments-INDEX.md
+├── Books-And-Notes
+│   ├── CS-Books-And-Notes
+│   ├── DBMS-Books-And-Notes
+│   │   ├── DBMS-BookFundamentals-Of-Database-Systems-6e-Elmasri-Navathe.pdf
+│   │   └── DBMS-Notes.pdf
+│   ├── Java-Books-And-Notes
+│   │   └── Balgurusamy_ProgrammingInJava.pdf
+│   ├── PSLP-Books-And-Notes
+│   │   └── ADVANCED ENGINEERING MATHEMATICS BY ERWIN ERESZIG1.pdf
+│   └── TOC-Books-And-Notes
+│       └── TOC-Book-An Introduction to Formal Languages and Automata (3rd edition), by Peter Linz.pdf
 ├── INDEX.md
 ├── Labs
-│   ├── Circuits-And-Systems-Lab
-│   │   └── Circuits-And-Systems-Lab-INDEX.md
-│   ├── Data-Base-Management-System-Lab
-│   │   └── Data-Base-Managent-System-Lab-INDEX.md
-│   ├── Probability-Statistics-And-Linear-Programming-Lab
-│   │   ├── Code
-│   │   │   ├── PRACTICAL_1_Factorial.sce
-│   │   │   ├── PRACTICAL_2_FibonacciSeries.sce
-│   │   │   ├── PRACTICAL_3_SumOfEvenOdd.sce
-│   │   │   └── PRACTICAL_4_MatrixOperations.sce
-│   │   ├── Probability-Statistics-And-Linear-Programming-INDEX.md
-│   │   ├── SciLabBasics.pdf
-│   │   └── Theory
-│   │       ├── PRACTICAL_1_THEORY.pdf
-│   │       ├── PRACTICAL_2_THEORY.pdf
-│   │       ├── PRACTICAL_3_THEORY.pdf
-│   │       ├── PRACTICAL_4_THEORY.pdf
-│   │       ├── PRACTICAL_5_THEORY.pdf
-│   │       ├── PRACTICAL_6_THEORY.pdf
-│   │       └── PRACTICAL_7_THEORY.pdf
-│   └── Programming-In-Java-Lab
-│       ├── Programming-In-Java-Lab-INDEX.md
-│       ├── TestFibonacci.java
-│       ├── TestLargest.java
-│       ├── TestNestedClass.java
-│       ├── TestQuadratic.java
-│       └── TestShapes.java
+│   ├── CS-Lab
+│   │   └── Circuits-And-Systems-Lab-INDEX.md
+│   ├── DBMS-Lab
+│   │   └── Data-Base-Managent-System-Lab-INDEX.md
+│   ├── Java-Lab
+│   │   ├── Programming-In-Java-Lab-INDEX.md
+│   │   ├── TestFibonacci.java
+│   │   ├── TestLargest.java
+│   │   ├── TestNestedClass.java
+│   │   ├── TestQuadratic.java
+│   │   └── TestShapes.java
+│   └── PSLP-Lab
+│       ├── Code
+│       │   ├── PRACTICAL_1_Factorial.sce
+│       │   ├── PRACTICAL_2_FibonacciSeries.sce
+│       │   ├── PRACTICAL_3_SumOfEvenOdd.sce
+│       │   ├── PRACTICAL_4_MatrixOperations.sce
+│       │   ├── PRACTICAL_5_FunctionsGraph.sce
+│       │   ├── PRACTICAL_6_DiceProbability.sce
+│       │   └── PRACTICAL_7_BinomialDistribuition.sce
+│       ├── Probability-Statistics-And-Linear-Programming-INDEX.md
+│       ├── SciLabBasics.pdf
+│       ├── ScilLab-Basics-E-Balagrursamy.pdf
+│       └── Theory
+│           ├── PRACTICAL_1_THEORY.pdf
+│           ├── PRACTICAL_2_THEORY.pdf
+│           ├── PRACTICAL_3_THEORY.pdf
+│           ├── PRACTICAL_4_THEORY.pdf
+│           ├── PRACTICAL_5_THEORY.pdf
+│           ├── PRACTICAL_6_THEORY.pdf
+│           └── PRACTICAL_7_THEORY.pdf
 ├── README.md
 ├── Repository-Structure.txt
+├── Syllabus
+│   └── Sem-4-Syllabus.txt
 └── Theory
-    ├── Circuits-And-Systems
-    ├── Data-Base-Management-System
-    │   └── DBMS-Notes.pdf
-    ├── Probability-Statistics-And-Linear-Programming
-    ├── Programming-In-Java
-    └── Theory-Of-Computation
-
-20 directories, 40 files
+    ├── CS
+    ├── DBMS
+    ├── Java-Programming
+    ├── PSLP
+    └── TOC
+        └── Theory of Computer Science (Automata, Languages and Computation) Third Edition ( PDFDrive ).pdf
