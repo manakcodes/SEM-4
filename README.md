@@ -1,12 +1,18 @@
 # INDEX
 
-## Labs
+## Labs : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Labs)
 
-#### PLSP Lab : [click here](https://github.com/manakcodes/SEM-4/tree/563bd55d30dd525ebff0648f6292bdc26d329aea/Labs/PSLP-Lab)  
+## ASSIGNMENTS : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Assignments)
 
-###### SciLab basics pdf : [click here](https://github.com/manakcodes/SEM-4/blob/563bd55d30dd525ebff0648f6292bdc26d329aea/Labs/PSLP-Lab/SciLabBasics.pdf)  
+## BOOKS-AND-NOTES : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Books-And-Notes)
 
-###### SciLab basics E-Balagurusamy pdf : [click here](https://github.com/manakcodes/SEM-4/blob/563bd55d30dd525ebff0648f6292bdc26d329aea/Labs/PSLP-Lab/ScilLab-Basics-E-Balagrursamy.pdf)  
+## SYLLABUS : [click-here](https://github.com/manakcodes/SEM-4/blob/b9deca85d2073b566a47dd976bff8bab3f764f10/Syllabus/Sem-4-Syllabus.txt)
+
+#### PLSP Lab : [click here](https://github.com/manakcodes/SEM-4/tree/563bd55d30dd525ebff0648f6292bdc26d329aea/Labs/PSLP-Lab)
+
+###### SciLab basics pdf : [click here](https://github.com/manakcodes/SEM-4/blob/563bd55d30dd525ebff0648f6292bdc26d329aea/Labs/PSLP-Lab/SciLabBasics.pdf)
+
+###### SciLab basics E-Balagurusamy pdf : [click here](https://github.com/manakcodes/SEM-4/blob/563bd55d30dd525ebff0648f6292bdc26d329aea/Labs/PSLP-Lab/ScilLab-Basics-E-Balagrursamy.pdf)
 
 ###### code : [click here](https://github.com/manakcodes/SEM-4/tree/00c621d4942e5588c39ed6e3afc0709e65472127/Labs/PSLP-Lab/Code)
 
@@ -43,6 +49,42 @@
   - theory : [click here](https://github.com/manakcodes/SEM-4/blob/00c621d4942e5588c39ed6e3afc0709e65472127/Labs/PSLP-Lab/Theory/PRACTICAL_6_THEORY.pdf)
 
 - PRACTICAL 7
+
   - date : [wednesday , 19 february , 2025]
   - code : [click here](https://github.com/manakcodes/SEM-4/blob/00c621d4942e5588c39ed6e3afc0709e65472127/Labs/PSLP-Lab/Code/PRACTICAL_7_BinomialDistribuition.sce)
   - theory : [click here](https://github.com/manakcodes/SEM-4/blob/00c621d4942e5588c39ed6e3afc0709e65472127/Labs/PSLP-Lab/Theory/PRACTICAL_7_THEORY.pdf)
+
+  #### Java Lab
+
+  - PRACTICAL 1
+
+  - date : []
+  - code : [click here](https://github.com/manakcodes/SEM-4/blob/b9deca85d2073b566a47dd976bff8bab3f764f10/Labs/Java-Lab/TestLargest.java)
+
+- PRACTICAL 2
+  - date : []
+  - code : [click here](https://github.com/manakcodes/SEM-4/blob/b9deca85d2073b566a47dd976bff8bab3f764f10/Labs/Java-Lab/TestShapes.java)
+- PRACTICAL 3
+  - date : []
+  - code : [click here](https://github.com/manakcodes/SEM-4/blob/b9deca85d2073b566a47dd976bff8bab3f764f10/Labs/Java-Lab/TestNestedClass.java)
+- PRACTICAL 4
+  - date : []
+  - code : [click here](https://github.com/manakcodes/SEM-4/blob/b9deca85d2073b566a47dd976bff8bab3f764f10/Labs/Java-Lab/TestQuadratic.java)
+- PRACTICAL 5
+
+  - date : []
+  - code : [click here](https://github.com/manakcodes/SEM-4/blob/b9deca85d2073b566a47dd976bff8bab3f764f10/Labs/Java-Lab/TestFibonacci.java)
+
+## ASSIGNMENTS
+
+#### PSLP ASSIGNMENTS : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Assignments/PLSP-Assignments)
+
+#### TOC Assignments : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Assignments/TOC-Assignments)
+
+#### Java Assignments : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Assignments/Java-Programming-Assignments)
+
+#### DBMS Assignments : [click here]()
+
+#### TW Assignments : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Assignments/TW-Assignments)
+
+#### CS Assignments : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Assignments/CS-Assignments)
