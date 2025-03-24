@@ -30,6 +30,6 @@ ylabel("PROBABILITY OF GETTING THE SUM OF THE DOTS ON THE FACE OF DICE = 3" , "f
 xgrid();
 
 disp("DETAILS")
-disp("manak")
-disp("04613215623")
-disp("CSE - AIML (4th - SEM)")
+disp("xxxx")
+disp("xxxx")
+disp("xxxx")
