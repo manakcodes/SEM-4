@@ -2,7 +2,7 @@
 
 ## Labs : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Labs)
 
-## ASSIGNMENTS : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Assignments)
+## ASSIGNMENTS : [click here](https://github.com/manakcodes/SEM-4/tree/e8ca772b79e9beb01a17090e48b9764206378deb/Assignments)
 
 ## BOOKS-AND-NOTES : [click here](https://github.com/manakcodes/SEM-4/tree/b9deca85d2073b566a47dd976bff8bab3f764f10/Books-And-Notes)
 
