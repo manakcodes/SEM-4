@@ -1,0 +1,721 @@
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+DBMS Assignment - 2 Answers
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+
+============================================================================
+============================================================================
+ANSWER 1 : 
+
+✅ Data Models in DBMS
+
+A Data Model is a conceptual way to organize data and define how data is stored, connected, and accessed in a database. It provides a systematic approach to managing data using structures, constraints, and operations.
+
+🔹 Types of Data Models
+	1.	Hierarchical Model
+	•	Data is organized in a tree-like structure (parent-child).
+	•	Each child has only one parent.
+	•	Example: File systems.
+	•	❌ Limited flexibility, hard to model complex relationships.
+	2.	Network Model
+	•	More flexible than the hierarchical model.
+	•	Records are connected via links; supports many-to-many relationships.
+	•	Uses pointers to navigate.
+	•	Example: Early DBMS like IDS, IDMS.
+	3.	Relational Model
+	•	Most widely used model.
+	•	Data is stored in tables (relations) with rows and columns.
+	•	Uses SQL for operations.
+	•	Example: MySQL, PostgreSQL, Oracle.
+	4.	Entity-Relationship (E-R) Model
+	•	High-level conceptual model.
+	•	Represents real-world entities and their relationships.
+	•	Used during database design.
+	•	Converted into relational schemas later.
+	5.	Object-Oriented Model
+	•	Data and operations are combined into objects.
+	•	Supports inheritance, encapsulation, etc.
+	•	Used in applications needing complex data representation (e.g., CAD, AI).
+	6.	Document and NoSQL Models
+	•	Non-relational.
+	•	Used in Big Data and modern web apps.
+	•	Example: MongoDB (Document Model), Neo4j (Graph Model), Redis (Key-Value Model).
+
+
+🧩 E-R (Entity-Relationship) Model
+
+The E-R Model is a conceptual data model that defines the structure of data using:
+	•	Entities
+	•	Attributes
+	•	Relationships
+
+It helps database designers understand and document the data requirements in a visual form.
+
+📌 1. Entity
+
+An entity is a real-world object or concept that can be distinctly identified.
+	•	Entity Types: Categories like Student, Employee, Car, etc.
+	•	Entity Set: A collection of similar entities.
+
+Example:
+Entity: Student
+Attributes: RollNo, Name, Age
+
+📌 2. Attributes
+Attributes describe properties of an entity.
+	•	Simple/Atomic: Cannot be divided (e.g., Age, ID)
+	•	Composite: Can be divided (e.g., Name → First, Last)
+	•	Derived: Can be derived (e.g., Age from DOB)
+	•	Multivalued: Can have multiple values (e.g., Phone numbers)
+
+📌 3. Relationship
+A relationship shows association among entities.
+	•	Relationship Set: A collection of similar relationships.
+	•	Degree:
+	•	Binary (between 2 entities),
+	•	Ternary (3 entities), etc.
+
+📌 4. Cardinality
+Specifies the number of instances of one entity related to another.
+	•	One-to-One (1:1): Each entity in A relates to one in B.
+	•	One-to-Many (1:N): One in A relates to many in B.
+	•	Many-to-Many (M:N): Many in A relate to many in B.
+
+📌 5. Keys
+	•	Primary Key: Uniquely identifies an entity (e.g., RollNo).
+	•	Candidate Key: Possible choices for the primary key.
+
+📌 6. Participation
+	•	Total Participation: Every entity is involved in the relationship.
+	•	Partial Participation: Some entities may not be involved.
+
+📊 Example E-R Diagram
+
+Let’s say we want to model Students and Courses:
+	•	A student can enroll in many courses.
+	•	A course can have many students.
+
+    [Student] ----<Enrolls>---- [Course]
+
+Student Attributes: ID (PK), Name, Age  
+Course Attributes: Code (PK), Title  
+Enrolls: Relationship (Many-to-Many)
+🔁 Converting E-R to Relational Schema
+
+From the above:
+	•	Student(ID, Name, Age)
+	•	Course(Code, Title)
+	•	Enrolls(StudentID, CourseCode) → Composite primary key, foreign keys
+
+🎯 Advantages of E-R Model
+	•	High-level abstraction.
+	•	Simple and intuitive for designing database schema.
+	•	Helps identify relationships and constraints.
+
+============================================================================
+============================================================================
+ANSWER 2 : 
+
+Definition of Instance and Domain in DBMS
+
+🔹 Instance
+	•	An instance of a database refers to the collection of data stored in the database at a particular moment in time.
+	•	It is the current content of the database.
+	•	The instance can change frequently as data is inserted, updated, or deleted.
+
+👉 Example:
+If you have a Student table:
+
+RollNo  Name    Age
+101     Alice   20
+102     Bob     21
+
+This table with these two rows is an instance of the Student table at that time.
+
+🔹 Domain
+	•	A domain is the set of all possible values that an attribute (column) can take.
+	•	Each attribute in a table is defined on a domain.
+	•	It ensures data integrity by limiting the values an attribute can store.
+
+👉 Example:
+
+In a Student table:
+	•	Age may have a domain of integers from 17 to 30.
+	•	Name may have a domain of all alphabetic strings up to 50 characters.
+
+CREATE TABLE Student (
+RollNo INT,
+Name VARCHAR(50),
+Age INT CHECK (Age BETWEEN 17 AND 30)
+);
+
+Here, VARCHAR(50) and CHECK (Age BETWEEN 17 AND 30) define domains for Name and Age.
+
+============================================================================
+============================================================================
+ANSWER 3 :
+
+✅ What is an Entity in DBMS?
+
+An Entity is a real-world object or concept that is distinguishable from other objects and can have data stored about it in a database.
+
+💡 An entity has a set of attributes that describe its properties.
+
+🔸 Example:
+
+In a university database:
+	•	Student, Course, Professor → all are entities.
+	•	A student has attributes like RollNo, Name, Age, etc.
+
+📚 Types of Entities
+
+Entities can be categorized into the following types:
+
+1. Strong Entity (or Regular Entity)
+	•	Can exist independently of other entities.
+	•	Has a primary key.
+	•	Represented by a single rectangle in E-R diagrams.
+👉 Example:
+Student entity with attributes: RollNo, Name, Age
+→ RollNo is the primary key.
+
+2. Weak Entity
+	•	Cannot exist independently.
+	•	Depends on a strong entity for its identification.
+	•	Has a partial key (also called a discriminator).
+	•	Represented by a double rectangle in E-R diagrams.
+👉 Example:
+
+Dependent entity depends on an Employee entity.
+Attributes: Name, Relationship
+Primary key: (EmployeeID, Name) – needs EmployeeID from the strong entity.
+
+3. Composite Entity (or Associative Entity)
+	•	Used to represent many-to-many relationships.
+	•	Contains foreign keys from the related entities and may have its own attributes.
+	•	Often created when converting many-to-many relationships into tables.
+👉 Example:
+Enrollment entity between Student and Course
+Attributes: StudentID, CourseID, Grade
+
+4. Derived Entity
+	•	Entities that are derived or calculated based on other entities.
+	•	Not physically stored but logically represented.
+👉 Example:
+TotalSalary entity derived from BasicPay + Allowance + Bonus of Employee.
+
+5. Recursive Entity
+	•	An entity that has a relationship with itself.
+	•	Useful in hierarchical relationships.
+👉 Example:
+Employee entity having a “manages” relationship with another employee.
+
+============================================================================
+============================================================================
+ANSWER 4 : 
+
+✅ What is an Attribute in DBMS?
+
+An Attribute is a property or characteristic that describes an entity.
+In simple terms, it’s a column in a table in the relational model.
+
+💡 Each attribute holds a specific type of data (integer, string, date, etc.).
+
+🔹 Example:
+
+In a Student entity:
+	•	Attributes could be: RollNo, Name, Age, Email.
+    Student(RollNo, Name, Age, Email)
+
+    📚 Types of Attributes
+
+1. Simple (Atomic) Attribute
+	•	Cannot be divided further.
+	•	Single-valued and indivisible.
+
+🧾 Example: Age, RollNo, Salary
+
+2. Composite Attribute
+	•	Can be divided into smaller sub-parts.
+	•	Each sub-part may also be a meaningful attribute.
+
+🧾 Example: Name → FirstName, LastName
+Address → Street, City, Zip
+
+3. Derived Attribute
+	•	Not stored in the database.
+	•	Computed from other attributes.
+
+🧾 Example: Age can be derived from DateOfBirth.
+
+4. Multivalued Attribute
+	•	Can have more than one value for a single entity.
+
+🧾 Example: PhoneNumbers for a person (can have multiple numbers)
+In E-R diagrams: shown by double ovals.
+
+5. Single-Valued Attribute
+	•	Can hold only one value for a given entity instance.
+
+🧾 Example: Email or RollNo – one email per student.
+
+6. Key Attribute
+	•	Used to uniquely identify an entity.
+	•	Forms part of the primary key in relational databases.
+
+🧾 Example: RollNo in Student entity
+In E-R diagrams: underlined.
+
+7. Null Attribute (Optional Attribute)
+	•	May not have a value for some instances.
+	•	Used where some data is optional.
+
+🧾 Example: MiddleName (some students might not have one)
+
+============================================================================
+============================================================================
+ANSWER 5 : 
+
+✅ Recursive Relationship in DBMS
+
+A recursive relationship is a relationship between an entity and itself.
+This means an instance of an entity is related to another instance of the same entity.
+
+🔹 Why use Recursive Relationships?
+
+Used to model hierarchical or self-referencing relationships like:
+	•	An employee managing another employee.
+	•	A person being the parent of another person.
+	•	A course having a prerequisite course.
+
+🧠 Example: Employee Management
+
+Let’s say we have an Employee entity with attributes:
+	•	EmpID, EmpName, Designation
+
+And the relationship is:
+	•	“manages” → one employee can manage another employee.
+
+    🔸 E-R Representation:
+    Employee ───────── manages ─────────> Employee
+         (EmpID, EmpName, Designation)
+
+    Here, the manages relationship connects the Employee entity to itself.
+
+🔸 Table Representation:
+
+We can represent it in SQL as:
+
+CREATE TABLE Employee (
+  EmpID INT PRIMARY KEY,
+  EmpName VARCHAR(50),
+  Designation VARCHAR(50),
+  ManagerID INT,  -- Recursive foreign key
+  FOREIGN KEY (ManagerID) REFERENCES Employee(EmpID)
+);
+
+•	ManagerID is a foreign key that refers to EmpID of another employee (the manager).
+
+🔸 Example Data:
+EmpID-EmpName-Designation-ManagerID
+1-Alice-CEO-NULL
+2-Bob-Manager-1
+3-Carol-Developer-2
+
+•	Recursive relationship occurs within the same entity.
+•	Requires a foreign key in the table referring to the same table.
+•	Useful for hierarchical structures.
+
+============================================================================
+============================================================================
+ANSWER 6 : 
+✅ Degree of Relationship in DBMS
+
+The degree of a relationship in a database refers to the number of entities participating in a relationship set.
+
+💡 It indicates how many entity sets are involved in a relationship.
+
+🔹 Types of Degree of Relationship
+
+1. Unary Relationship (Degree 1)
+	•	Only one entity is involved in the relationship.
+	•	Also known as a recursive relationship.
+
+🧾 Example:
+	•	Employee manages Employee
+→ One employee is the manager of another.
+
+2. Binary Relationship (Degree 2)
+	•	Two entities are involved.
+	•	This is the most common type of relationship.
+
+🧾 Example:
+	•	Student enrolls in Course
+→ Entities: Student, Course
+
+3. Ternary Relationship (Degree 3)
+	•	Three entities are involved in a relationship.
+
+🧾 Example:
+	•	Doctor prescribes Medicine to Patient
+→ Entities: Doctor, Patient, Medicine
+
+4. n-ary Relationship (Degree n)
+	•	n entities are involved, where n > 3.
+	•	Rare in practice; usually broken down into multiple binary or ternary relationships.
+
+============================================================================
+============================================================================
+ANSWER 7 : 
+✅ Basic Constructs of the ER (Entity-Relationship) Model
+
+The ER model is a high-level conceptual data model used to define data elements and their relationships. It is primarily used in database design.
+
+Here are the basic constructs (building blocks) of the ER model:
+
+🔹 1. Entity
+An entity is a real-world object or concept that can be uniquely identified and stored in a database.
+	•	Types:
+	•	Strong Entity: Exists independently (e.g., Student)
+	•	Weak Entity: Depends on another entity (e.g., Dependent)
+📌 Representation: Rectangle
+
+🔹 2. Attributes
+Attributes are properties or characteristics of an entity or relationship.
+	•	Types:
+	•	Simple (Atomic)
+	•	Composite
+	•	Derived
+	•	Multivalued
+	•	Key Attribute
+📌 Representation: Oval
+📌 Key Attribute: Underlined
+📌 Multivalued: Double oval
+
+🔹 3. Entity Set
+An entity set is a collection of similar entities that share the same attributes.
+📌 Example: The entity set Student contains all students.
+
+🔹 4. Relationship
+A relationship is an association between two or more entities.
+	•	Types:
+	•	Unary (recursive)
+	•	Binary
+	•	Ternary
+	•	n-ary
+📌 Representation: Diamond
+
+🔹 5. Relationship Set
+A relationship set is a collection of similar relationships.
+📌 Example: All instances of enrolled in between students and courses.
+
+🔹 6. Participation
+Specifies whether all instances of an entity participate in the relationship.
+	•	Total Participation: All entities must participate (drawn with double lines).
+	•	Partial Participation: Some entities participate (drawn with single line).
+
+🔹 7. Cardinality (Mapping Constraints)
+Defines how many instances of one entity can be associated with instances of another.
+	•	One-to-One (1:1)
+	•	One-to-Many (1:N)
+	•	Many-to-One (N:1)
+	•	Many-to-Many (M:N)
+📌 Shown using numbers or symbols on relationship lines.
+
+🔹 8. Generalization, Specialization, and Aggregation (Advanced Constructs)
+	•	Generalization: Combining similar entities into a generalized entity.
+	•	Specialization: Dividing a generalized entity into more specific ones.
+	•	Aggregation: Treating a relationship as a higher-level entity.
+
+============================================================================
+============================================================================
+ANSWER 8 : 
+
+** TABULAR FORM ANSWER
+
+[Definition] [Cannot be divided further] [Can be divided into smaller sub-parts]
+
+[Structure] [Atomic (single-valued)] [Hierarchical (grouped attributes)]
+[Example] [Age, StudentID, Salary] [Name (can be split into First Name, Last Name)]
+[Stored As] [Stored as a single value in the database] [Stored as a group of values]
+[Representation in ER] [Single oval attached to entity] [Oval with branches to sub-attributes]
+[Complexity] [Simple to use and query] [Slightly more complex due to sub-parts]
+
+============================================================================
+============================================================================
+ANSWER 9 : 
+✅ ORDER BY, GROUP BY, and HAVING Clauses in SQL
+
+These SQL clauses are used to organize and filter query results, especially when working with aggregated data.
+
+🔹 1. ORDER BY Clause
+•	Purpose: Sorts the result set by one or more columns.
+•	Default: Ascending (ASC), but can specify descending (DESC).
+
+📌 Syntax:
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 [ASC|DESC];
+
+✅ Example:
+SELECT name, salary
+FROM employees
+ORDER BY salary DESC;
+•	Lists employees by salary in descending order.
+
+🔹 2. GROUP BY Clause
+•	Purpose: Groups rows that have the same values in specified columns.
+•	Used with aggregate functions (SUM(), COUNT(), AVG(), etc.).
+
+📌 Syntax:
+SELECT column1, AGG_FUNC(column2)
+FROM table_name
+GROUP BY column1;
+
+✅ Example:
+SELECT department, AVG(salary)
+FROM employees
+GROUP BY department;
+•	Shows average salary per department.
+
+🔹 3. HAVING Clause
+•	Purpose: Filters groups created by GROUP BY.
+•	Used only with aggregate functions (unlike WHERE, which filters rows).
+
+📌 Syntax:
+SELECT column1, AGG_FUNC(column2)
+FROM table_name
+GROUP BY column1
+HAVING AGG_FUNC(column2) condition;
+
+✅ Example:
+SELECT department, COUNT(*)
+FROM employees
+GROUP BY department
+HAVING COUNT(*) > 5;
+
+•	Returns only departments that have more than 5 employees.
+
+🔄 Combined Example:
+SELECT department, COUNT(*) AS emp_count
+FROM employees
+GROUP BY department
+HAVING COUNT(*) > 5
+ORDER BY emp_count DESC;
+
+============================================================================
+============================================================================
+ANSWER 10 : 
+
+✅ Views in SQL
+
+A View is a virtual table in SQL. It is based on the result of a SELECT query and does not store data physically, but rather stores the SQL query.
+
+🔹 Key Points:
+	•	A view behaves like a real table but doesn’t store data itself.
+	•	It can simplify complex queries by hiding joins or calculations.
+	•	Can be used for security, allowing users limited access to the data.
+
+📌 Syntax to Create a View:
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+🔹 Advantages of Views:
+	•	Simplify complex SQL queries.
+	•	Improve security by showing only specific columns.
+	•	Provide logical data independence.
+
+============================================================================
+============================================================================
+ANSWER 11 : 
+✅ Aggregate Functions in SQL
+
+Aggregate functions perform a calculation on a set of values and return a single value. They are commonly used with the GROUP BY clause.
+
+TABLE : EMPLOYEES
+emp_id-name-department-salary
+101-Alice-IT-50000
+102-Bob-HR-40000
+103-Charlie-IT-55000
+104-David-Finance-60000
+
+📌 1. COUNT()
+Counts number of rows or non-NULL values
+
+SELECT COUNT(*) AS total_employees
+FROM Employees;
+
+📌 2. SUM()
+Adds values in a column
+
+SELECT SUM(salary) AS total_salary
+FROM Employees;
+
+📌 3. AVG()
+Calculates average of values
+
+SELECT AVG(salary) AS avg_salary
+FROM Employees;
+
+📌 4. MIN() and MAX()
+Finds the smallest value, Finds the largest value
+
+SELECT MIN(salary) AS lowest, MAX(salary) AS highest
+FROM Employees;
+
+============================================================================
+============================================================================
+ANSWER 12 :
+✅ Subqueries and Correlated Subqueries in SQL
+
+🔹 1. Subquery (Nested Query)
+A subquery is a query inside another query. The inner query runs first, and its result is used by the outer query.
+
+📌 Syntax:
+SELECT column1
+FROM table1
+WHERE column2 = (SELECT column3 FROM table2 WHERE condition);
+
+✅ Example:
+SELECT name
+FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);
+✔️ This returns employees whose salary is greater than the average salary.
+
+
+🔹 2. Correlated Subquery
+A correlated subquery is a subquery that uses data from the outer query. It runs once for each row in the outer query.
+
+📌 Syntax:
+SELECT column1
+FROM table1 alias1
+WHERE EXISTS (
+  SELECT 1
+  FROM table2 alias2
+  WHERE alias2.column2 = alias1.column1
+);
+
+✅ Example:
+SELECT e1.name
+FROM employees e1
+WHERE salary > (
+  SELECT AVG(salary)
+  FROM employees e2
+  WHERE e1.department = e2.department
+);
+
+============================================================================
+============================================================================
+ANSWER 13 : 
+✅ What is a JOIN in SQL?
+
+A JOIN is used in SQL to combine rows from two or more tables based on a related column (usually a foreign key).
+
+INNER JOIN
+Returns only the matching rows from both tables
+
+LEFT JOIN
+Returns all rows from the left table, and matching rows from the right
+
+RIGHT JOIN
+Returns all rows from the right table, and matching rows from the left
+
+FULL OUTER JOIN
+Returns all rows from both tables (matched + unmatched)
+
+CROSS JOIN
+Returns Cartesian product (every row of A with every row of B)
+
+SELF JOIN
+A table joined with itself
+
+
+
+============================================================================
+============================================================================
+ANSWER 14 : 
+✅ SQL Relational Set Operators
+
+Relational set operators in SQL are used to combine the results of two or more SELECT statements. These operators work only if both queries have the same number of columns and compatible data types.
+
+🔹 Types of Set Operators in SQL:
+
+Operator
+Description
+
+UNION
+Combines results from both queries and removes duplicates
+
+UNION ALL
+Combines all results, including duplicates
+
+INTERSECT
+Returns only the common records from both queries
+
+MINUS
+Returns records from the first query that are not in the second (Oracle)
+
+ Important Rules for Set Operators:
+	1.	The number of columns and their data types must match in all SELECT queries.
+	2.	Use parentheses to manage precedence when combining multiple set operations.
+	3.	The final result is sorted by default in some databases (e.g., Oracle), unless ORDER BY is used explicitly.
+
+============================================================================
+============================================================================
+ANSWER 15 : 
+✅ DISTINCT Keyword in SQL
+
+The DISTINCT keyword is used in SQL to remove duplicate records from the result set of a SELECT query.
+
+🔹 Purpose:
+
+To return only unique (non-duplicate) values from a column or a combination of columns.
+
+📌 Syntax:
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+✅ Example:
+
+🧾 Table: students
+id-name-department
+1-Alice-CSE
+2-Bob-CSE
+3-Carol-ECE
+4-Alice-CSE
+
+🔍 Query:
+SELECT DISTINCT name FROM students;
+
+📋 Output:
+
+name
+Alice
+Bob
+Carol
+
+The duplicate “Alice” appears only once because of DISTINCT.
+
+Note:
+•	DISTINCT applies to the entire row you select—not just one column unless only one column is selected.
+
+============================================================================
+============================================================================
+
+
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+END OF FILE
+============================================================================
+============================================================================
+============================================================================
+============================================================================

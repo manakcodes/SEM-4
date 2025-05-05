@@ -1,0 +1,9 @@
+Assignment 1
+
+Geometric distribution 
+Negative binomial distribution 
+Hypergeometric distribution 
+
+Do these distribution with one example in a note book.
+U can refer the book of DOUGLAS from library 
+Or from net.
