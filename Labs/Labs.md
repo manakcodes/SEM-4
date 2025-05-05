@@ -1,6 +1,14 @@
 # LABS
 
+## All Labs : [click here](https://github.com/manakcodes/SEM-4/tree/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs)  
+
 ## 📈📉 PSLP Lab (Probability, Statistics and Linear Programming) :
+
+- Download SciLab from here : [click here](https://www.scilab.org/)  
+
+- SciLab Basics PDF : [click here](https://github.com/manakcodes/SEM-4/blob/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs/PSLP-Lab/SciLabBasics.pdf)  
+
+- SciLab Book E.Balagurusamy : [click here](https://github.com/manakcodes/SEM-4/blob/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs/PSLP-Lab/ScilLab-Basics-E-Balagrursamy.pdf)  
 
 -   PRACTICAL 1 :
 
