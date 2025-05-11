@@ -1,0 +1,12 @@
+1) Explain the thread lifecycle with a diagram.
+
+2) What do you mean by Thread synchronisation. Give example. 
+
+3) Explain any 5 AWT components with syntax. 
+
+4) What do you mean by wait(), notify(), notifyall(). Explain with examples. 
+
+5) Explain the following with diagrams:
+
+    i) Remote Method Invocation (RMI)
+    ii) JDBC (Java Database Connectivity)
