@@ -1,89 +1,99 @@
 # LABS
 
-## All Labs : [click here](https://github.com/manakcodes/SEM-4/tree/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs)  
+## All Labs : [click here](https://github.com/manakcodes/SEM-4/tree/f55b018734506b83eca2edf5099e096321354f68/LABS)
 
 ## 📈📉 PSLP Lab (Probability, Statistics and Linear Programming) :
 
-- Download SciLab from here : [click here](https://www.scilab.org/)  
+-   Download SciLab from here : [click here](https://www.scilab.org/)
 
-- SciLab Basics PDF : [click here](https://github.com/manakcodes/SEM-4/blob/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs/PSLP-Lab/SciLabBasics.pdf)  
+-   SciLab Basics PDF : [click here](https://github.com/manakcodes/SEM-4/blob/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs/PSLP-Lab/SciLabBasics.pdf)
 
-- SciLab Book E.Balagurusamy : [click here](https://github.com/manakcodes/SEM-4/blob/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs/PSLP-Lab/ScilLab-Basics-E-Balagrursamy.pdf)  
+-   SciLab Book E.Balagurusamy : [click here](https://github.com/manakcodes/SEM-4/blob/1e32e0d7c259c372c565e665523915a4c65c9dde/Labs/PSLP-Lab/ScilLab-Basics-E-Balagrursamy.pdf)
 
 -   PRACTICAL 1 :
 
     -   AIM : to find the factorial of a number using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_001_Factorial.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_001_Factorial.sce)
     -   DATE : [29 January, 2025]
 
 -   PRACTICAL 2 :
 
     -   AIM : to print the Fibonacci Series till n using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_002_FibonacciSeries.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_002_FibonacciSeries.sce)
     -   DATE : [29 January, 2025]
 
 -   PRACTICAL 3 :
 
     -   AIM : to print the sum of first n even and odd numbers using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_003_SumOfEvenOdd.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_003_SumOfEvenOdd.sce)
     -   DATE : [29 January, 2025]
 
 -   PRACTICAL 4 :
 
     -   AIM : to perform the operations (+ , - , \* , trans('') , det() , inv()) on a MATRIX using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_004_MatrixOperations.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_004_MatrixOperations.sce)
     -   DATE : [29 January, 2025]
 
 -   PRACTICAL 5 :
 
     -   AIM : to plot the graph of Trigonometric Functions(sin(x) and cos(x)) , Exponential Function (e ^ x) , Absolute Function (|x|) , Inverse and Hyperbolic Functions (tanh(x) + acos(x)).
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_005_FunctionsGraph.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_005_FunctionsGraph.sce)
+    -   GRAPH : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Graphs/PRACTICAL_005_Graph.pdf)
     -   DATE : [19 February, 2025]
 
 -   PRACTICAL 6 :
 
     -   AIM : WAP to demonstrate theoretically the probability of getting sum of dots on the dice to be 3.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_006_DiceProbability.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_006_DiceProbability.sce)
+    -   GRAPH : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Graphs/PRACTICAL_006_Graph.pdf)
     -   DATE : [19 February, 2025]
 
 -   PRACTICAL 7 :
 
     -   AIM : to compute , display and plot the Binomial Distribution for given values of (n = number of trials) and (p = probability of success) using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_007_BinomialDistribuition.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_007_BinomialDistribuition.sce)
+    -   GRAPH : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Graphs/PRACTICAL_007_Graph.pdf)
     -   DATE : [19 February, 2025]
 
 -   PRACTICAL 8 :
 
     -   AIM : To write a SciLab program to compute and plot the Poisson distribution for a given number of observations and a specified mean (lambda), and visualize the probability of r successes.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_008_FitBinomialDistribution.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_008_FitBinomialDistribution.sce)
+    -   GRAPH : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Graphs/PRACTICAL_008_Graph.pdf)
     -   DATE : [2 April, 2025]
 
 -   PRACTICAL 9 :
 
     -   AIM : To fit a Poisson distribution to a given frequency distribution, compute the expected frequencies, and compare them with actual data using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_009_Posisson.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_009_Posisson.sce)
+    -   GRAPH : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Graphs/PRACTICAL_009_Graph.pdf)
     -   DATE : [2 April, 2025]
 
 -   PRACTICAL 10 :
 
     -   AIM : To fit a Poisson distribution to a given frequency distribution, compute the expected frequencies, and compare them with actual data using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_010_FitPosisson.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_010_FitPosisson.sce)
     -   DATE : [2 April, 2025]
 
 -   PRACTICAL 11 :
 
     -   AIM : To plot the graph of Normal Distribution with mean = 0 and standard deviation = 1 using SciLab.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_011_NormalDistribution.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_011_NormalDistribution.sce)
+    -   GRAPH : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Graphs/PRACTICAL_011_Graph.pdf)
     -   DATE : [2 April, 2025]
 
 -   PRACTICAL 12 :
     -   AIM : To write a SciLab program that calculates and plots the linear regression line for a given set of data points using the method of least squares.
-    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/PSLP-Lab/Code/PRACTICAL_012_LinearRegresion.sce)
+    -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Code/PRACTICAL_012_LinearRegresion.sce)
+    -   GRAPH : [click here](https://github.com/manakcodes/SEM-4/blob/f55b018734506b83eca2edf5099e096321354f68/LABS/PSLP-Lab/Graphs/PRACTICAL_012_Graph.pdf)
     -   DATE : [9 April, 2025]
 
 ## 💻💭 Java Lab (Programming In Java Lab) :
 
--   PRACTICAL 1 :
+-   Java File : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/DBMS-Lab/dbms%20file.pdf)  
+    EXPERIMENT - 1 ... EXPERIMENT - 27
+
+<!-- -   PRACTICAL 1 :
 
     -   AIM :
 
@@ -143,7 +153,7 @@
     -   CODE : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/Java-Lab/SOURCE-CODE/TestFibonacci.java)
     -   CODE PDF : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/Java-Lab/CODE-PDFs/PRACTICAL_05_CODE.pdf)
     -   OUTPUT PDF : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/Java-Lab/OUTPUTS/PRACTICAL_05_OUTPUT.pdf)
-    -   DATE :
+    -   DATE : -->
 
 ## 📊🛢️ DBMS Lab (Database Management System Lab)
 
