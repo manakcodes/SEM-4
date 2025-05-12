@@ -90,8 +90,9 @@
 
 ## 💻💭 Java Lab (Programming In Java Lab) :
 
--   Java File : [click here](https://github.com/manakcodes/SEM-4/blob/4ce6785a6f78298c0811239213c0ef11c89b467c/Labs/DBMS-Lab/dbms%20file.pdf)  
+-   Java File : [click here](https://github.com/manakcodes/SEM-4/blob/6a24912ff7bb9528d7dc73a0e89681480f7246ea/LABS/Java-Lab/JAVA%20PROGRAMMING%20(AMAN%20KUMAR)((IT-3)).pdf)  
     EXPERIMENT - 1 ... EXPERIMENT - 27
+    (change the name, roll no. and other details in the file)
 
 <!-- -   PRACTICAL 1 :
 
